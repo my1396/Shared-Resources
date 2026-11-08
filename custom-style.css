@@ -1,0 +1,42 @@
+figcaption {
+  margin: auto;
+  text-align: center;
+}
+
+/* Environment variable colors adaptive to light/dark mode.
+   This file is injected AFTER the Quarto theme stylesheets and carries no
+   .quarto-color-scheme class, so a hard-coded colour here beats any per-theme
+   rule in both light and dark mode. The colour is therefore taken from a
+   custom property that the theme sets, with the light value as the fallback
+   so documents that load no theme .scss still render as before. */
+.env-green,
+.env-green>code,
+.env-green code {
+  color: var(--env-green, #008B45) !important;
+}
+
+.env-orange,
+.env-orange>code,
+.env-orange code {
+  color: var(--env-orange, #D2691E) !important;
+}
+
+.solution-answer.env-green {
+  color: var(--env-green, #008B45) !important;
+  border-color: var(--env-green, #008B45) !important;
+}
+
+.solution-btn {
+  color: inherit !important;
+  border-color: #ddd !important;
+  /* match example environment border */
+  font-weight: 500;
+  margin-bottom: 0.6rem !important;
+  /* ensure spacing */
+}
+
+.solution-btn:hover,
+.solution-btn:focus {
+  background: rgba(0, 0, 0, 0.04) !important;
+  outline: none;
+}

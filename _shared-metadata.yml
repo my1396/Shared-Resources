@@ -1,0 +1,7 @@
+filters:
+  - /Users/menghan/Documents/_shared-resources/filters/color-text.lua
+  - /Users/menghan/Documents/_shared-resources/filters/unlisted-sections.lua
+
+format:
+  pdf:
+    include-in-header: /Users/menghan/Documents/_shared-resources/latex/preamble.tex

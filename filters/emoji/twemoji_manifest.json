@@ -1,0 +1,24 @@
+{
+  "version": "latest",
+  "folder": "72x72",
+  "emoji": {
+    "1f600": ["😀", ":grinning:"],
+    "1f604": ["😄", ":smile:"],
+    "1f680": ["🚀", ":rocket:"],
+    "26a0":  ["⚠",  ":warning:"],
+    "1f4a1": ["💡", ":bulb:"],
+    "1f4dd": ["📝", ":memo:"],
+    "1f4c8": ["📈", ":chart_with_upwards_trend:"],
+    "1f539": ["🔹", ":small_blue_diamond:"],
+    "2705": ["✅", ":white_check_mark:"],
+    "2764": ["❤️", ":heart:", ":red_heart:"],
+    "1f44d": ["👍", ":thumbsup:", ":+1:"],
+    "1f389": ["🎉", ":tada:"],
+    "1f4cc": ["📌", ":pushpin:"],
+    "270d": ["✍️", ":writing_hand:"],
+    "274c": ["❌", ":x:", ":cross_mark:"],
+    "1f3af": ["🎯", ":dart:"],
+    "2b55": ["⭕", ":o:"],
+    "2757": ["❗", ":exclamation:"]
+  }
+}
