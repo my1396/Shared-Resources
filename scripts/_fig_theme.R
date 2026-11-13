@@ -18,8 +18,8 @@ my_theme <- theme_minimal(base_size = BASE_SIZE) +
     strip.text       = element_text(face = "bold", colour = INK, size = rel(1.05)),
     plot.title       = element_text(face = "bold", size = rel(1.20), hjust = 0.5),
     plot.subtitle    = element_text(colour = INK_SOFT, size = rel(0.95)),
-    axis.title       = element_text(colour = INK_SOFT, size = rel(0.95)),
-    axis.text        = element_text(colour = INK_SOFT, size = rel(0.90)),
+    axis.title       = element_text(colour = INK, size = rel(0.95)),
+    axis.text        = element_text(colour = INK, size = rel(0.90)),
     plot.caption = element_text(
       colour = INK_MUTED, hjust = 0,
       margin = margin(t = 10)
